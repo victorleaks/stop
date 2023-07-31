@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #336699;
+}
+
+#categories, #player1, #player2 {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li[contenteditable="true"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-width: 100px;
+    outline: none;
+}
+
+li[contenteditable="true"]:focus {
+    border-color: #336699;
+}
